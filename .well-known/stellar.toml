@@ -1,0 +1,64 @@
+VERSION="2.0.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Tezos"
+ORG_URL=ORG_URL="https://tezosxlm.github.io/"
+ORG_LOGO="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+ORG_DESCRIPTION="Tezos is an independent digital asset project on the Stellar network featuring five assets: Tezos, Expert, Term, Exchange, and Albedo."
+ORG_GITHUB="https://github.com/tezosxlm/tezosxlm.github.io"
+ORG_OFFICIAL_EMAIL=ORG_OFFICIAL_EMAIL="tezosstllar@gmail.com"
+
+[[CURRENCIES]]
+code="Tezos"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Tezos"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Tezos digital asset on the Stellar network."
+conditions="The issuer states a total supply of 100,000,000,000 units and does not plan further issuance."
+status="live"
+
+[[CURRENCIES]]
+code="Expert"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Expert"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Expert digital asset on the Stellar network."
+conditions="The issuer states a total supply of 100,000,000,000 units and does not plan further issuance."
+status="live"
+
+[[CURRENCIES]]
+code="Term"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Term"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Term digital asset on the Stellar network."
+conditions="The issuer states a total supply of 100,000,000,000 units and does not plan further issuance."
+status="live"
+
+[[CURRENCIES]]
+code="Exchange"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Exchange"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Exchange digital asset on the Stellar network."
+conditions="The issuer states a total supply of 100,000,000,000 units and does not plan further issuance."
+status="live"
+
+[[CURRENCIES]]
+code="Albedo"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Albedo"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Albedo digital asset on the Stellar network."
+conditions="The issuer states a total supply of 100,000,000,000 units and does not plan further issuance."
+status="live"
