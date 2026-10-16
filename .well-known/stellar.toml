@@ -1,0 +1,65 @@
+
+VERSION="2.0.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+  "GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Tezos"
+ORG_URL="https://tezosxlm.github.io/"
+ORG_LOGO="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+ORG_DESCRIPTION="Tezos is an independent digital asset project built on the Stellar network. The project features five digital assets: Tezos, Expert, Term, Exchange, and Albedo. Each asset has its own identity and published metadata. Official contact: Telegram @TezosStellars."
+ORG_GITHUB="https://github.com/tezosxlm/tezosxlm.github.io"
+ORG_OFFICIAL_EMAIL="tezosstllar@gmail.com"
+
+[[CURRENCIES]]
+code="Tezos"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Tezos"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Tezos is the flagship digital asset of the Tezos project on the Stellar network. Its metadata identifies the asset and its stated fixed-supply policy."
+conditions="The project states an intended fixed supply of 100,000,000,000 units, with no further issuance planned. This statement is issuer-provided metadata and does not independently prove that additional issuance is technically impossible."
+fixed_number=100000000000
+
+[[CURRENCIES]]
+code="Expert"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Expert"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Expert is a digital asset in the Tezos project on the Stellar network, with its own asset code and published metadata."
+conditions="The project states an intended fixed supply of 100,000,000,000 units, with no further issuance planned. This statement is issuer-provided metadata and does not independently prove that additional issuance is technically impossible."
+fixed_number=100000000000
+
+[[CURRENCIES]]
+code="Term"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Term"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Term is a digital asset in the Tezos project on the Stellar network, identified by its own asset code and issuer."
+conditions="The project states an intended fixed supply of 100,000,000,000 units, with no further issuance planned. This statement is issuer-provided metadata and does not independently prove that additional issuance is technically impossible."
+fixed_number=100000000000
+
+[[CURRENCIES]]
+code="Exchange"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Exchange"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Exchange is a digital asset in the Tezos project on the Stellar network, with its own published identity and asset metadata."
+conditions="The project states an intended fixed supply of 100,000,000,000 units, with no further issuance planned. This statement is issuer-provided metadata and does not independently prove that additional issuance is technically impossible."
+fixed_number=100000000000
+
+[[CURRENCIES]]
+code="Albedo"
+issuer="GBFXEUHQKGKC76HWQS5XZC77ROSQGKNFGZO3ZGO5JXGI6ESVOOVO7NK2"
+name="Albedo"
+display_decimals=7
+image="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png"
+desc="Albedo is a digital asset in the Tezos project on the Stellar network, represented by its own asset code and published metadata."
+conditions="The project states an intended fixed supply of 100,000,000,000 units, with no further issuance planned. This statement is issuer-provided metadata and does not independently prove that additional issuance is technically impossible."
+fixed_number=100000000000
