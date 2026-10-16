@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="TezosXLM — independent digital assets offered on the Stellar network. Explore our tokens and the crypto market.">
+  <title>TezosXLM — Digital Assets on Stellar</title>
+  <style>
+    :root{--bg:#071426;--panel:#10223a;--panel2:#0c1b30;--text:#edf5ff;--muted:#a9bdd4;--blue:#68b8ff;--gold:#f6c453;--line:rgba(180,211,245,.16);--green:#4fdfb0}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#173d64 0,transparent 48%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1120px,92%);margin:auto}
+    header{border-bottom:1px solid var(--line);background:rgba(7,20,38,.86);backdrop-filter:blur(12px);position:sticky;top:0;z-index:5}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.06em}.brand img{width:48px;height:48px;object-fit:contain;border-radius:13px;background:#fff}.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.94rem}
+    .hero{padding:48px 0 36px;text-align:center}.flag{font-size:2.6rem;line-height:1;margin-bottom:16px}.eyebrow{color:var(--gold);font-weight:750;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.2rem,6vw,4.3rem);line-height:1.06;letter-spacing:-.045em;margin:12px 0 16px}.lead{max-width:720px;margin:0 auto;color:var(--muted);font-size:1.08rem}
+    .hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:12px;font-weight:750;border:1px solid var(--line);background:#173352;color:var(--text)}.btn.primary{background:linear-gradient(135deg,#f5c451,#ffdf8b);color:#142036;border:0}
+    section{padding:30px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:clamp(1.45rem,3vw,2rem)}.section-head p{margin:4px 0 0;color:var(--muted)}.market-top{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .panel{background:linear-gradient(145deg,rgba(19,43,70,.94),rgba(10,26,46,.96));border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 16px 38px rgba(0,0,0,.15)}
+    .btc-card{display:flex;align-items:center;gap:16px}.btc-icon{width:62px;height:62px;display:grid;place-items:center;border-radius:50%;background:#f7931a;color:white;font-size:2rem;font-weight:900}.btc-card h3{margin:0;font-size:1.25rem}.btc-price{font-size:1.7rem;font-weight:850;margin-top:3px}.muted{color:var(--muted);font-size:.92rem}.market-links{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:8px}
+    .tokens{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}.token{min-height:190px;display:flex;flex-direction:column;align-items:flex-start}.token-symbol{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:rgba(104,184,255,.15);color:var(--blue);font-weight:900;font-size:1.1rem}.token h3{margin:14px 0 3px;font-size:1.1rem}.token p{margin:0;color:var(--muted);font-size:.9rem}.token a{margin-top:auto;padding-top:16px;font-size:.9rem;font-weight:700}
+    .notice{color:var(--muted);font-size:.86rem;margin-top:15px}.market-table{width:100%;border-collapse:collapse}.market-table th,.market-table td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line);white-space:nowrap}.market-table th{color:var(--muted);font-size:.82rem;font-weight:650}.market-table td{font-size:.94rem}.market-table tr:last-child td{border-bottom:0}.coin{display:flex;align-items:center;gap:9px;font-weight:750}.coin img{width:26px;height:26px;border-radius:50%}.positive{color:var(--green)}.negative{color:#ff8989}.table-scroll{overflow-x:auto}
+    .status{display:inline-block;border:1px solid rgba(79,223,176,.35);color:var(--green);border-radius:999px;padding:3px 9px;font-size:.76rem}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.contact-card h3{margin:0 0 5px}.contact-card p{margin:0;color:var(--muted);overflow-wrap:anywhere}
+    footer{margin-top:24px;border-top:1px solid var(--line);padding:26px 0 38px;color:var(--muted);font-size:.86rem}.footline{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:900px){.tokens{grid-template-columns:repeat(2,minmax(0,1fr))}.market-top{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}}@media(max-width:560px){.nav{align-items:flex-start}.navlinks{gap:10px;font-size:.82rem;justify-content:flex-end}.brand span{display:none}.hero{padding-top:36px}.panel{padding:17px}.tokens{grid-template-columns:1fr 1fr}.token{min-height:180px}.market-table th,.market-table td{padding:11px 8px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="TezosXLM home">
+      <img src="https://tezosxlm.github.io/76aff703-6738-49ed-a629-da9a71e9125c.png" alt="TezosXLM logo">
+      <span>TEZOSXLM</span>
+    </a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#tokens">Our Tokens</a><a href="#market">Crypto Market</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="home">
+  <div class="wrap hero">
+    <div class="flag" aria-label="United States flag">🇺🇸</div>
+    <div class="eyebrow">Digital assets · Stellar network</div>
+    <h1>Explore the <span style="color:var(--blue)">TezosXLM</span> ecosystem</h1>
+    <p class="lead">Discover our digital tokens issued on the Stellar network, learn about each asset, and follow the wider cryptocurrency market in one place.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#tokens">Explore our tokens</a>
+      <a class="btn" href="#market">View crypto market</a>
+    </div>
+  </div>
+
+  <section class="wrap" aria-labelledby="market-preview">
+    <div class="section-head"><div><h2 id="market-preview">Bitcoin & market snapshot</h2><p>A live market snapshot, when market data is available.</p></div><span class="status" id="market-status">Loading market data…</span></div>
+    <div class="market-top">
+      <article class="panel btc-card">
+        <div class="btc-icon">₿</div>
+        <div><h3>Bitcoin (BTC)</h3><div class="btc-price" id="btc-price">—</div><div class="muted" id="btc-change">Fetching current price…</div></div>
+      </article>
+      <article class="panel market-links">
+        <div class="eyebrow">Global crypto market</div>
+        <h3 style="margin:0;font-size:1.3rem">Track prices across the market</h3>
+        <p class="muted" style="margin:0">Explore prices, market capitalization, volume and rankings.</p>
+        <a class="btn primary" href="https://www.coingecko.com/" target="_blank" rel="noopener noreferrer">Open full crypto market ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap" id="tokens">
+    <div class="section-head"><div><h2>Our Stellar tokens</h2><p>Five assets presented by the TezosXLM project.</p></div></div>
+    <div class="tokens">
+      <article class="panel token"><div class="token-symbol">T</div><h3>Tezos</h3><p>Digital asset in the TezosXLM collection.</p><a href="https://stellar.expert/explorer/public" target="_blank" rel="noopener noreferrer">Explore on Stellar ↗</a></article>
+      <article class="panel token"><div class="token-symbol">EX</div><h3>Expert</h3><p>Digital asset in the TezosXLM collection.</p><a href="https://stellar.expert/explorer/public" target="_blank" rel="noopener noreferrer">Explore on Stellar ↗</a></article>
+      <article class="panel token"><div class="token-symbol">TM</div><h3>Term</h3><p>Digital asset in the TezosXLM collection.</p><a href="https://stellar.expert/explorer/public" target="_blank" rel="noopener noreferrer">Explore on Stellar ↗</a></article>
+      <article class="panel token"><div class="token-symbol">EXC</div><h3>Exchange</h3><p>Digital asset in the TezosXLM collection.</p><a href="https://stellar.expert/explorer/public" target="_blank" rel="noopener noreferrer">Explore on Stellar ↗</a></article>
+      <article class="panel token"><div class="token-symbol">AL</div><h3>Albedo</h3><p>Digital asset in the TezosXLM collection.</p><a href="https://stellar.expert/explorer/public" target="_blank" rel="noopener noreferrer">Explore on Stellar ↗</a></article>
+    </div>
+    <p class="notice">Token names are shown for project information. Before buying or transferring any asset, verify the exact token code and issuer address on the Stellar network. This page does not promise returns or guarantee market liquidity.</p>
+  </section>
+
+  <section class="wrap" id="market">
+    <div class="section-head"><div><h2>Top cryptocurrencies</h2><p>Market prices and 24-hour changes, provided by CoinGecko.</p></div><a href="https://www.coingecko.com/" target="_blank" rel="noopener noreferrer">Source: CoinGecko ↗</a></div>
+    <div class="panel table-scroll">
+      <table class="market-table">
+        <thead><tr><th>Asset</th><th>Price (USD)</th><th>24h</th><th>Market cap (USD)</th></tr></thead>
+        <tbody id="market-rows"><tr><td colspan="4" class="muted">Loading live market data…</td></tr></tbody>
+      </table>
+      <p class="notice" id="market-note">If live data cannot load, use the CoinGecko link above. Market data can be delayed or unavailable.</p>
+    </div>
+  </section>
+
+  <section class="wrap" id="contact">
+    <div class="section-head"><div><h2>Contact TezosXLM</h2><p>Reach the project through the channels below.</p></div></div>
+    <div class="contact-grid">
+      <article class="panel contact-card"><h3>Email</h3><p><a href="mailto:tezosstllar@gmail.com">tezosstllar@gmail.com</a></p></article>
+      <article class="panel contact-card"><h3>Telegram</h3><p><a href="https://t.me/TezosStellars" target="_blank" rel="noopener noreferrer">@TezosStellars</a></p></article>
+      <article class="panel contact-card"><h3>Network</h3><p>Stellar — public blockchain</p><p><a href="https://stellar.org/" target="_blank" rel="noopener noreferrer">Official Stellar website ↗</a></p></article>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footline"><span>© <span id="year">2026</span> TezosXLM</span><span>Independent digital-asset project on Stellar.</span></div></footer>
+<script>
+  // Public market data only; this page never asks for wallet keys, passwords, or personal information.
+  const money = n => Number(n).toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:n<1?6:2});
+  const pct = n => `${n >= 0 ? '+' : ''}${Number(n).toFixed(2)}%`;
+  async function loadMarket(){
+    const status=document.getElementById('market-status');
+    const rows=document.getElementById('market-rows');
+    try{
+      const url='https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false&price_change_percentage=24h';
+      const response=await fetch(url,{headers:{accept:'application/json'}});
+      if(!response.ok) throw new Error('Market data unavailable');
+      const coins=await response.json();
+      const btc=coins.find(c=>c.id==='bitcoin');
+      if(btc){
+        document.getElementById('btc-price').textContent=money(btc.current_price);
+        const change=Number(btc.price_change_percentage_24h||0);
+        const el=document.getElementById('btc-change');
+        el.textContent=`24h: ${pct(change)}`;
+        el.style.color=change>=0?'var(--green)':'#ff8989';
+      }
+      rows.innerHTML=coins.map((c,i)=>{
+        const change=Number(c.price_change_percentage_24h||0);
+        return `<tr><td><span class="coin"><span>${i+1}.</span><img src="${c.image}" alt="" loading="lazy"><span>${escapeHtml(c.name)} <span class="muted">${escapeHtml(c.symbol.toUpperCase())}</span></span></span></td><td>${money(c.current_price)}</td><td class="${change>=0?'positive':'negative'}">${pct(change)}</td><td>${money(c.market_cap)}</td></tr>`;
+      }).join('');
+      status.textContent='Live data loaded';
+      document.getElementById('market-note').textContent='Data is retrieved from the public CoinGecko API and may be rate-limited or delayed.';
+    }catch(e){
+      status.textContent='Live data unavailable';
+      document.getElementById('btc-price').textContent='Unavailable';
+      document.getElementById('btc-change').textContent='Open CoinGecko for current pricing.';
+      rows.innerHTML='<tr><td colspan="4" class="muted">Live prices could not be loaded right now. Please open CoinGecko using the link above.</td></tr>';
+    }
+  }
+  function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+  document.getElementById('year').textContent=new Date().getFullYear();
+  loadMarket();
+</script>
+</body>
+</html>
